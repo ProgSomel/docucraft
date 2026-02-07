@@ -32,7 +32,7 @@ export default function Header({ docs }) {
             dark:bg-white/7.5
             "
           ></div>
-          <Search />
+          <Search docs={docs} />
         </div>
       </div>
       <Sidebar docs={docs} />
